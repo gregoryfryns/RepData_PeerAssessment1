@@ -130,9 +130,9 @@ activity$steps.x[filter] &lt;- activity$steps.y[filter]
 
 # tidying...
 activity &lt;- activity[,-4]
-colnames(activity[2]) &lt;- c(&quot;steps&quot;)
+colnames(activity)[2] &lt;- c(&quot;steps&quot;)
 head(activity)</code></pre>
-<pre><code>##   interval  steps.x       date
+<pre><code>##   interval    steps       date
 ## 1        0 1.716981 2012-10-01
 ## 2        0 0.000000 2012-11-23
 ## 3        0 0.000000 2012-10-28

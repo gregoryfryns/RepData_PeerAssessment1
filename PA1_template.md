@@ -127,12 +127,12 @@ activity$steps.x[filter] <- activity$steps.y[filter]
 
 # tidying...
 activity <- activity[,-4]
-colnames(activity[2]) <- c("steps")
+colnames(activity)[2] <- c("steps")
 head(activity)
 ```
 
 ```
-##   interval  steps.x       date
+##   interval    steps       date
 ## 1        0 1.716981 2012-10-01
 ## 2        0 0.000000 2012-11-23
 ## 3        0 0.000000 2012-10-28

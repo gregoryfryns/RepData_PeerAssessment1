@@ -88,7 +88,7 @@ activity$steps.x[filter] <- activity$steps.y[filter]
 
 # tidying...
 activity <- activity[,-4]
-colnames(activity[2]) <- c("steps")
+colnames(activity)[2] <- c("steps")
 head(activity)
 ```
 
